@@ -2,7 +2,8 @@
 
 body {
   background-color: lightcyan;
-  /* TEST */
+  max-width: 100%;
+  max-height: 100%;
 }
 
 header {
@@ -30,6 +31,7 @@ h2 {
   border-bottom-width: 10px;
   border-left-width: 10px;
   border-right-width: 10px;
+  display: block;
 }
 
 #navigation {
@@ -46,6 +48,27 @@ h2 {
   text-decoration: underline rgb(42, 75, 124) 3px;
 }
 
+#agenda {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+#todo {
+  display: inline-block;
+  width: 49%;
+}
+
+#resources {
+  display: inline-block;
+  width: 49%;
+}
+
+#contact {
+  display: inline-block;
+  width: 49%;
+}
+
 section {
   border-style: solid;
   border-color: rgb(42, 75, 124);
@@ -60,6 +83,11 @@ section {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+section:hover {
+  box-shadow: 0 0 7px rgb(42, 75, 124);
+  border-radius: 25px;
 }
 
 #register {
