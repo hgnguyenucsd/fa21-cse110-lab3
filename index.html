@@ -9,38 +9,37 @@
       name="description"
       content="Lab 2: HTML (Meeting Minutes) & DevTools "
     />
-    <link rel="icon" type="image/png" href="images/Xenox.png" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
       <h1>CSE 110: Software Engineering</h1>
-      <hr />
     </header>
     <main>
       <div><h1>First Brainstorm/Meeting Project</h1></div>
       <section>
         <h2>Date: October 1, 2021</h2>
       </section>
-      <hr />
       <div>
-        <h2>Table of Contents</h2>
-        <nav>
-          <ol>
-            <li><a href="#topic">Topic</a></li>
-            <li><a href="#attendance">Attendance</a></li>
-            <li><a href="#agenda">Agenda</a></li>
-            <li><a href="#todo">To Do</a></li>
-            <li><a href="#other">Comments, Questions, Concerns</a></li>
-            <li><a href="#diagrams">Diagrams</a></li>
-            <li><a href="#video-audio">Video/Audio</a></li>
-            <li><a href="#resources">Helpful Resources</a></li>
-            <li><a href="#contact">Contact Info</a></li>
-            <li><a href="#register">Signup Form</a></li>
-          </ol>
-        </nav>
+        <section>
+          <h2>Table of Contents</h2>
+          <nav>
+            <ul id="navigation">
+              <li><a href="#topic">Topic</a></li>
+              <li><a href="#attendance">Attendance</a></li>
+              <li><a href="#agenda">Agenda</a></li>
+              <li><a href="#todo">To Do</a></li>
+              <li><a href="#other">Comments, Questions, Concerns</a></li>
+              <li><a href="#diagrams">Diagrams</a></li>
+              <li><a href="#video-audio">Video/Audio</a></li>
+              <li><a href="#resources">Helpful Resources</a></li>
+              <li><a href="#contact">Contact Info</a></li>
+              <li><a href="#register">Signup Form</a></li>
+            </ul>
+          </nav>
+        </section>
       </div>
-      <hr />
       <div id="topic">
         <section>
           <h2>Topic: Brainstorming Session (Initial Ideas for the Project)</h2>
@@ -67,11 +66,10 @@
           </p>
         </section>
       </div>
-      <hr />
       <div id="attendance">
         <section>
           <h2>Attendance List</h2>
-          <ul>
+          <ul id="attendance_list">
             <li>Team Member 1</li>
             <li>Team Member 2</li>
             <li>Team Member 3</li>
@@ -85,7 +83,6 @@
           </ul>
         </section>
       </div>
-      <hr />
       <div id="agenda">
         <section>
           <h2>Agenda</h2>
@@ -105,7 +102,6 @@
           </ol>
         </section>
       </div>
-      <hr />
       <div id="todo">
         <section>
           <h2>Things needed to get done</h2>
@@ -126,7 +122,6 @@
           </ol>
         </section>
       </div>
-      <hr />
       <div id="other">
         <section>
           <h2>Miscellaneous Comments, Questions, or Concerns</h2>
@@ -149,7 +144,6 @@
           </ul>
         </section>
       </div>
-      <hr />
       <div id="diagrams">
         <section>
           <h2>Example diagrams that were covered</h2>
@@ -160,7 +154,6 @@
           />
         </section>
       </div>
-      <hr />
       <div id="video-audio">
         <section>
           <h2>Meeting Video and Audio</h2>
@@ -170,20 +163,21 @@
           <audio controls src="Lab_2_Audio.mp3"></audio>
         </section>
       </div>
-      <hr />
       <div id="resources">
         <section>
           <h2>Resources that may be helpful</h2>
-          <div><a href="https://canvas.ucsd.edu/">UCSD Canvas</a></div>
+          <div>
+            <a href="https://canvas.ucsd.edu/" target="blank">UCSD Canvas</a>
+          </div>
           <div>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+              target="blank"
               >Mozilla Developer Network (HTML Docs)</a
             >
           </div>
         </section>
       </div>
-      <hr />
       <div id="contact">
         <section>
           <h2>Contact Information</h2>
@@ -197,7 +191,6 @@
           </details>
         </section>
       </div>
-      <hr />
       <div id="register">
         <h2>Sign up for our team!</h2>
         <form>
@@ -277,7 +270,6 @@ Ex: What year are you? Hobbies and interests?</textarea
       </div>
     </main>
     <footer>
-      <hr />
       <h1>
         Thank you! We'll see you again soon for another productive meeting!
       </h1>
