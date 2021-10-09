@@ -177,3 +177,13 @@ a:active {
     color: black;
   }
 }
+
+img[src^="images"] {
+  box-shadow: 0 0 25px rgb(42, 75, 124);
+  border-radius: 25px;
+}
+
+h1,
+h2 {
+  text-shadow: 0 0 25px black;
+}
